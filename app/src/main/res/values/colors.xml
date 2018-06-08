@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">@color/_37</color>
+    <color name="statusBarColor">#5affffff</color>
+    <color name="toolBarTransparent">#85000000</color>
+    <color name="chatDisableBackground">#bfbfbf</color>
+    <color name="transParent">#7b000000</color>
+    <color name="rTransParent">#00ffffff</color>
+
+
+
+    <color name="google_red">#ea4335</color>
+    <color name="google_yellow">#FBBC05</color>
+    <color name="google_blue">#4285F4</color>
+    <color name="google_green">#34A853</color>
+
+    <integer-array name="google_glyph_colors">
+        <item>@android:color/white</item>
+        <item>@color/google_red</item>
+        <item>@color/google_yellow</item>
+        <item>@color/google_blue</item>
+        <item>@color/google_green</item>
+    </integer-array>
+
+    <color name="_1">#FEFEFE</color>
+    <color name="_2">#D28C7F</color>
+    <color name="_3">#E1B9B4</color>
+    <color name="_4">#B2D1E1</color>
+    <color name="_5">#9CBAD0</color>
+    <color name="_6">#E49583</color>
+    <color name="_7">#C07E72</color>
+    <color name="_8">#B8DFEE</color>
+    <color name="_9">#A0C1D5</color>
+    <color name="_10">#ABFEF3</color>
+    <color name="_11">#B3D7F0</color>
+    <color name="_12">#EEC17B</color>
+    <color name="_13">#F7E89A</color>
+    <color name="_14">#B580D4</color>
+    <color name="_15">#DF7187</color>
+    <color name="_16">#EAAED0</color>
+    <color name="_17">#80CA92</color>
+    <color name="_18">#E491BE</color>
+    <color name="_19">#94D4A6</color>
+    <color name="_20">#7AC588</color>
+    <color name="_21">#DF6E85</color>
+    <color name="_22">#DE6A8A</color>
+    <color name="_23">#EFC77C</color>
+    <color name="_24">#FDEA9A</color>
+    <color name="_25">#B180D6</color>
+    <color name="_26">#E6A3BF</color>
+    <color name="_27">#B7C1E8</color>
+    <color name="_28">#ECB5D9</color>
+    <color name="_29">#EEBC75</color>
+    <color name="_30">#EEC987</color>
+    <color name="_31">#B2E3F4</color>
+    <color name="_32">#F6EA9F</color>
+    <color name="_33">#8BCF9D</color>
+    <color name="_34">#98D6AA</color>
+    <color name="_35">#FEFEFE</color>
+    <color name="_36">#F8E27D</color>
+    <color name="_37">#B77BD2</color>
+    <color name="_38">#B076D1</color>
+    <color name="_39">#E38DBB</color>
+    <color name="_40">#D1B3E5</color>
+    <color name="_41">#7CC88F</color>
+
+    <integer-array name="logo_color">
+
+        <item>@color/_2</item>
+        <item>@color/_3</item>
+        <item>@color/_4</item>
+        <item>@color/_5</item>
+        <item>@color/_6</item>
+        <item>@color/_7</item>
+        <item>@color/_8</item>
+        <item>@color/_9</item>
+        <item>@color/_10</item>
+        <item>@color/_11</item>
+        <item>@color/_12</item>
+        <item>@color/_13</item>
+        <item>@color/_14</item>
+        <item>@color/_15</item>
+        <item>@color/_16</item>
+        <item>@color/_17</item>
+        <item>@color/_18</item>
+        <item>@color/_19</item>
+        <item>@color/_20</item>
+        <item>@color/_21</item>
+        <item>@color/_22</item>
+        <item>@color/_23</item>
+        <item>@color/_24</item>
+        <item>@color/_25</item>
+        <item>@color/_26</item>
+        <item>@color/_27</item>
+        <item>@color/_28</item>
+        <item>@color/_29</item>
+        <item>@color/_30</item>
+        <item>@color/_31</item>
+        <item>@color/_32</item>
+        <item>@color/_33</item>
+        <item>@color/_34</item>
+        <item>@color/_35</item>
+        <item>@color/_36</item>
+        <item>@color/_37</item>
+        <item>@color/_38</item>
+        <item>@color/_39</item>
+        <item>@color/_40</item>
+        <item>@color/_41</item>
+    </integer-array>
+</resources>

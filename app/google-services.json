@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "385432083806",
+    "firebase_url": "https://kkotest-41a38.firebaseio.com",
+    "project_id": "kkotest-41a38",
+    "storage_bucket": "kkotest-41a38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385432083806:android:e9413e84860acea4",
+        "android_client_info": {
+          "package_name": "com.lsh.kkotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385432083806-uvon2s8fp0jiafhuhmrsug1j9s6l9ctq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVPyWz8au13krGVjuS1xaI7erfsoHtRao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

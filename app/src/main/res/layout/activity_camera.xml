@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_camera_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lsh.fillette.Filtering.FilterCamera">
+
+    <com.lsh.fillette.Filtering.CameraRenderer
+        android:id="@+id/cam_render"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/filter_list"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="70dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/shot"
+                android:layout_width="65dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:paddingBottom="20dp"
+                android:src="@drawable/shot" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/flip"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:src="@drawable/switch_camera" />
+
+                    <ImageView
+                        android:id="@+id/filter"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/filter_change" />
+                    <ImageView
+                        android:id="@+id/flashOn"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:visibility="visible"
+                        android:src="@drawable/flash_on" />
+
+                    <ImageView
+                        android:id="@+id/flashOff"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:visibility="invisible"
+                        android:src="@drawable/flash_off" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

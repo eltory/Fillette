@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.lsh.kkotest"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 7
+        versionName "1.1.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        release {
+            storeFile file('/Users/lsh/Documents/release_key.keystore')
+            storePassword "ts1250qk1!"
+            keyAlias "key0"
+            keyPassword "ts1250qk1!"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:design:27+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.firebaseui:firebase-ui-storage:3.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.android.support:cardview-v7:27.+'
+    compile 'com.android.support:recyclerview-v7:27.+'
+    compile 'com.android.volley:volley:1.0.0'
+    compile "com.kakao.sdk:usermgmt:${project.KAKAO_SDK_VERSION}"
+    compile "com.kakao.sdk:kakaotalk:${project.KAKAO_SDK_VERSION}"
+    compile 'com.google.firebase:firebase-core:11.4.2'
+    compile 'com.google.firebase:firebase-database:11.4.2'
+    compile 'com.google.firebase:firebase-auth:11.4.2'
+    compile 'com.google.firebase:firebase-ads:11.4.2'
+    compile 'com.firebase:firebase-client-android:2.+'
+    compile 'com.google.code.gson:gson:2.5'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'gun0912.ted:tedpermission:2.2.0'
+    compile 'me.grantland:autofittextview:0.2.+'
+    compile 'com.estimote:sdk:0.10.4@aar'
+    compile 'com.jaredrummler:animated-svg-view:1.0.5'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.github.rtugeek:colorseekbar:1.7.2'
+    compile 'com.dinuscxj:recyclerrefreshlayout:2.0.3'
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.romandanylyk:pageindicatorview:1.0.1@aar'
+    compile 'gun0912.ted:tedbottompicker:1.2.1'
+    compile 'org.jsoup:jsoup:1.11.3'
+}
+apply plugin: 'com.google.gms.google-services'

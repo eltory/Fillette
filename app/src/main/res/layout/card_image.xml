@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:clickable="true"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:tint="#8e404040"
+        android:src="@drawable/bg9" />
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/filt_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="1"
+        android:maxWidth="70dp"
+        android:text="무채필터다요"
+        android:textColor="#dcd6d6"
+        android:textSize="20sp" />
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="url">https://dailydoing-11d92.firebaseapp.com/app.js:8000</string>-->
+    <string name="server_url" >https://kkoserver.herokuapp.com</string>
+    <string name="filter_url">https://kkotest-41a38.firebaseio.com/Filter</string>
+    <string name="key_brightness">key_brightness</string>
+    <string name="key_contrast">key_contrast</string>
+    <string name="key_saturation">key_saturation</string>
+    <string name="appId">ca-app-pub-6474387689840332~2863191089</string>
+    <string name="banner">ca-app-pub-6474387689840332/2102086833</string>
+</resources>
