@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Moblie_Term_project.iml" filepath="$PROJECT_DIR$/Moblie_Term_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\user\kkotest 5\Moblie_Term_project\kkotest.iml" filepath="C:\Users\user\kkotest 5\Moblie_Term_project\kkotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kkotest.iml" filepath="$PROJECT_DIR$/kkotest.iml" />
     </modules>
   </component>
 </project>
