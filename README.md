@@ -7,6 +7,11 @@ Have you ever created camera filters? or Have you ever always satisfied to filte
 <br>If not, this is a good tool for creating your own camera filters and you can share your filters and download others filters.
 <br/> [Fillette](https://play.google.com/store/apps/details?id=com.lsh.kkotest) is for you who want to uncommon camera filters!
 
+## Archtecture
+
+![image](https://user-images.githubusercontent.com/20057558/91021181-5e1c0480-e62e-11ea-8ab1-8cb924b19717.png)
+
+
 ## Market
 
 
